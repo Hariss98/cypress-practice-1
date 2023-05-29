@@ -1,0 +1,23 @@
+{
+  "name": "mistral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnesAlesevic/NopCommerce.git"
+  },
+  "author": "Enes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnesAlesevic/NopCommerce/issues"
+  },
+  "homepage": "https://github.com/EnesAlesevic/NopCommerce#readme",
+  "dependencies": {
+    "cypress": "^6.1.0"
+  }
+}
