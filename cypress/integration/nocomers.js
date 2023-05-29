@@ -258,6 +258,10 @@ describe("NopCommerce test", () => {
       cy.get("tbody > tr > .remove-from-cart").click();
     });
 
+    skip.it("Remove item from Cart", () => {
+      cy.get("tbody > tr > .remove-from-cart").click();
+    });
+
     it("Assure Shopping Cart is Empty", () => {
       cy.get(".no-data").then(($div) => {
         expect($div.text()).to.include("Your Shopping Cart is empty!");
